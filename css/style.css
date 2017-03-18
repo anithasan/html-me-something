@@ -1,0 +1,202 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+html, body{
+	font-size: 100%;
+	background:#fff;
+	font-family: 'Open Sans', sans-serif;
+}
+a:hover{
+ text-decoration:none;
+}
+
+h1,h2{
+	margin:0;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+
+  .logo{
+	float:left;
+	padding: 0 20px;
+}
+.logo a{
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+	text-transform:uppercase;
+
+}
+.logo a span{
+
+    position: relative;
+	padding: 10px;
+
+}
+.top-nav {
+    float: right;
+    width: 47%;
+    margin-top: 0px;
+}
+
+
+.top-nav ul li{
+	display:inline-block;
+    margin: 0 18px;
+
+
+}
+.top-nav ul li a{
+    color: #fff;
+    padding: 0 0 17px 0;
+    font-size: 16px;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 5px solid transparent;
+	outline:none;
+}
+.top-nav ul li a:hover, .top-nav ul li a.active{
+    background-color: none;
+    border-bottom:5px solid #fff;
+
+}
+
+.banner{
+    background: url(../images/banner7.jpg) no-repeat 0px 0px;
+    background-size:cover;
+    min-height:670px;
+    margin:0;
+    padding:0;
+
+}
+.header{
+    padding:30px 0;
+    background: #33475C;
+}
+.banner-info{
+    margin-top:175px;
+}
+.banner-info h3{
+    font-family: 'Varela Round', sans-serif;
+    color:#fff;
+    font-size:52px;
+    line-height:1.4em;
+    text-transform: uppercase;
+
+}
+/*-- //header --*/
+.buttons ul {
+    text-align:center;
+    margin-bottom: 20px;
+
+}
+
+.buttons ul li{
+    list-style-type:none;
+    display:inline-block;
+    margin-right:30px;
+    margin-top: 30px;
+
+}
+.buttons ul li a{
+    background-color: #33475C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+	margin:15px 32px;
+	border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.coupons h4 span {
+    background: #33475C;
+    padding: 32px 28px;
+    border-radius: 100%;
+}
+.coupons p {
+    color: #A9A8A8;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 40px;
+}
+
+.coupons h3 {
+    display: block;
+    text-align:center;
+    color: #33475C;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Varela Round', sans-serif;
+	line-height: 1.5em;
+    margin-top: 0;
+
+}
+.coupons {
+    margin:0;
+    padding:0;
+    background: #ffffff;
+}
+.click {
+    display:inline-block;
+	text-align:center;
+    padding-right: 120px;
+    padding-left: 120px;
+    align-content:center;
+
+}
+
+/*-- footer --*/
+.footer{
+	background:#3c3d41;
+	padding:45px 0;
+	text-align:center;
+}
+.footer h2 a{
+	text-decoration:none;
+	font-size:24px;
+	text-transform:uppercase;
+	color:#fff;
+}
+.footer p{
+	color:#fff;
+	font-size:14px;
+	line-height:1.8em;
+	text-align:center;
+    margin: 30px 0;
+}
+.footer p a{
+	color:#fff;
+	text-decoration:none;
+}
+.footer p a:hover{
+	color:#33475C;
+}
+.footer ul{
+	text-align:center;
+
+}
+.footer ul li{
+	list-style-type:none;
+	display:inline-block;
+    margin: 0 4px;
+
+}
+.footer ul li a{
+	width:25px;
+	height:25px;
+	display:block;
+	color:#ffffff;
+}
