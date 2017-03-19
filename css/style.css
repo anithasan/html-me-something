@@ -25,9 +25,11 @@ ul{
 }
 
 
-  .logo{
-	float:left;
-	padding: 0 20px;
+.logo{
+    float:left;
+    padding: 0 20px;
+    position: fixed;
+
 }
 .logo a{
     font-size: 27px;
@@ -54,7 +56,6 @@ ul{
 	display:inline-block;
     margin: 0 18px;
 
-
 }
 .top-nav ul li a{
     color: #fff;
@@ -65,6 +66,7 @@ ul{
     text-transform: uppercase;
     border-bottom: 5px solid transparent;
 	outline:none;
+
 }
 .top-nav ul li a:hover, .top-nav ul li a.active{
     background-color: none;
@@ -80,12 +82,14 @@ ul{
     padding:0;
 
 }
-.header{
+#header{
     padding:30px 0;
     background: #33475C;
+
+
 }
 .banner-info{
-    margin-top:175px;
+    margin-top:200px;
 }
 .banner-info h3{
     font-family: 'Varela Round', sans-serif;
@@ -152,7 +156,7 @@ ul{
 .click {
     display:inline-block;
 	text-align:center;
-    padding-right: 120px;
+    padding-right: 160px;
     padding-left: 120px;
     align-content:center;
 
